@@ -15,7 +15,7 @@
 - ファイル名の先頭に被写体名
 - ファイル名の末尾にカメラマン名
 を自動で付加します。  
-例：📸IMG_1235.JPG→Merhaba_IMG_1234_KF.JPG
+例：📸IMG_1235.JPG→✏️Merhaba_IMG_1234_KF.JPG
 
 ### 被写体リストを自由にカスタマイズ。工夫次第でスピーディーに！
 被写体名は`members.txt` に登録します。リネーム時は`fzf`（あいまい検索を可能にするツール）による入力補完対応なので  
@@ -62,10 +62,10 @@
 ### 1 準備
 - タグ付けしたい写真の入ったフォルダ用意
 - フォルダと同じ階層に被写体リスト`members.txt`を配置してください（サンプルのmembers.txtを用意しました）
-例） /Volumes/Work/
-　　　　　　　├─ members.txt
-　　　　　　　└─ Photos/
-　　　　　　　　　　├─ IMG_0001.JPG
+例） /Volumes/Work/  
+　　　　　　　├─ members.txt  
+　　　　　　　└─ Photos/  
+　　　　　　　　　　├─ IMG_0001.JPG  
 　　　　　　　　　　└─ IMG_0002.JPG
 
 `members.txt` はタブ区切りのテキストファイル  
