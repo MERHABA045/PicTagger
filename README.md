@@ -61,7 +61,7 @@
 ## 🚀Usage（使用方法）🚀
 ### 1 準備
 - タグ付けしたい写真の入ったフォルダ用意
-- フォルダと同じ階層に被写体リスト`members.txt`を配置してください（サンプルのmembers.txtを用意しました）
+- フォルダと同じ階層に被写体リスト`members.txt`を配置してください（サンプルのmembers.txtを用意しました）  
 例） /Volumes/Work/  
 　　　　　　　├─ members.txt  
 　　　　　　　└─ Photos/  
