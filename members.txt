@@ -1,0 +1,18 @@
+⚠️要確認	
+Sato	1
+Suzuki	2
+Takahashi	3
+Smith	4
+Johnson	5
+Garcia	6
+Yamamoto	Sato
+Ito	Suzuki
+Watanabe Takahashi
+Williams	Smith
+Brown 	Johnson
+Kim	Garcia
+Team	
+Atmosphere	
+Finish	
+Podium	
+Ceremony	
