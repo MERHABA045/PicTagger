@@ -36,11 +36,11 @@ fi
 
 # ========== 4 対象ファイルを取得 ==========
 files=("${(@f)$(find "$top_dir" -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.heic' \))}")
-echo "📸 画像ファイル数: ${#files}"
+echo "\n📸 画像ファイル数: ${#files}"
 
 # ========== 5 カメラマンイニシャル選択 ==========
 if (( no_initial == 0 )); then
-            echo "\n👤 カメラマン選択"
+            echo "👤 カメラマン選択"
             initial=$(printf "%s\n" "${photographers[@]}" | fzf --prompt="カメラマン: ")
             initial="${(U)initial}"
             if [[ -z "$initial" ]]; then
@@ -126,4 +126,4 @@ for filepath in $files; do
   ((count++))
 done
 
-print -P "\n✅ 処理完了！合計 ${count} ファイルをリネーム" # \nログ: $log_file"
+print -P "\n✅ 処理完了！合計 ${count} ファイルをリネーム\n" # \nログ: $log_file"
